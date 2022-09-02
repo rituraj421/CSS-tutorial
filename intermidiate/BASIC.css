@@ -1,0 +1,296 @@
+body {
+  background-color: rgb(157, 165, 168);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: rgb(204, 52, 52);
+}
+/* .basicss {
+  color: rgb(204, 52, 52);
+  text-align: center;
+} */
+/* hr{
+  size:  5px;
+} */
+h3{
+  align-items: center;
+  text-align: center;
+  background-color:rgb(204, 52, 52);;
+  color: white;
+}
+p {
+  font-family: monospace;
+}
+.color {
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  background-color: azure;
+  opacity: 0.4;
+  background-image: url("img2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-attachment: scroll; */
+}
+.colorr {
+  text-align: center;
+  margin-bottom: 6px;
+  opacity: 0.4;
+  background-image: url("img2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Border section  starts*/
+.borderr {
+  align-items: center;
+  color: bisque;
+  text-align: center;
+  background-color: none;
+  background: transparent;
+}
+#doted {
+  border-style: dotted;
+  border-color: 6px solid red;
+}
+#solidd {
+  border-style: solid;
+  border-color: blue;
+}
+#das {
+  border-style: dashed;
+  border-color: coral;
+}
+#grov {
+  border-top-style: groove;
+  border-right-style: solid;
+  border-bottom-style: groove;
+  border-left-style: solid;
+}
+#doub {
+  border: 4px solid red;
+  border-radius: 20px;
+  background-color: white;
+}
+#boxxx {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+#boxx {
+  margin: 30px;
+  background: white;
+  border: 4px solid black;
+  outline: 2px solid red;
+  outline-offset: 35px; /* used to specify the outline margin, the distence between boeder and outline  */
+}
+
+/* text styling starts */
+
+#textt {
+  text-align: center; /* used to align text horizontally*/
+  direction: rtl; /* used to change the direction of text*/
+  unicode-bidi: bidi-override;
+  vertical-align: middle;
+  text-decoration-line: overline;
+  text-decoration-color: red;
+  text-indent: 40px;
+  text-shadow: 2px 2px 4px green;
+}
+
+/* css text ends here */
+
+/* css fonts starts here */
+
+#sar {
+  font-family: serif;
+  font-style: bold;
+  font-weight: 30px;
+  font-size: larger;
+  font-variant: small-caps;
+}
+#san {
+  font-family: sans-serif;
+  font-style: bold;
+  font-variant: calc();
+}
+#mono {
+  font-family: monospace;
+  font-style: bold;
+  font-variant: inherit;
+}
+#cur {
+  font-family: cursive;
+  font-style: bold;
+  font-variant: initial;
+}
+#fant {
+  font-family: fantasy;
+  font-style: bold;
+  font-variant: unset;
+}
+
+/* css fonts ends here */
+
+/* css links starts here */
+a:link {
+  color: pink;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:visited {
+  /* after visiting the link */
+  text-decoration: dashed;
+}
+a:hover {
+  /* when the mouse will be at the link , it will hover */
+  color: burlywood;
+}
+a:active {
+  /* when the link will be active */
+  background-color: black;
+}
+/* css links ends here */
+
+/* css lists starts here */
+.lis{
+  align-items: center;
+  text-align: center;
+}
+.a {
+  list-style-type: circle;
+}
+
+.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+h3{
+  color: white;
+  background-color: black;
+}
+/* css list ends here */
+
+/* css table starts here */
+table{
+  color: #ff9999;
+  background-color: coral;
+  width: 100%;
+}
+tr{
+  background-color: white;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+}
+th{
+  font-size: 60px;
+  text-align: center;
+  align-items: center;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  background-color: black;
+  color: coral;
+  border-radius: 20px;
+}
+/* css table ends here */
+
+/* css display starts here */
+.displayy{
+  /* display: none; */
+  /* visibility:collapse; */
+  font-variant: normal;
+}
+.ex1{
+  width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+}
+
+/* div.ex2 {
+  max-width: 500px;
+  margin: auto;
+  border: 3px solid #73AD21;
+} */
+
+/* .ex1 { */
+  /* position: absolute; it can be , fixed, relative, static also */
+  /* top: 80px; */
+  /* right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21; */
+/* } */
+.container {
+  position: relative;
+}
+
+.black-box {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  height: 100px;
+  margin: 30px;
+}
+
+.gray-box {
+  position: absolute;
+  z-index: 3; /* gray box will be above both green and black box */
+  background: lightgray;
+  height: 60px;  
+  width: 70%;
+  left: 50px;
+  top: 50px;
+}
+
+.green-box {
+  position: absolute;
+  z-index: 2; /* green box will be above black box */
+  background: lightgreen;
+  width: 35%;
+  left: 270px;
+  top: -15px;
+  height: 100px;
+}

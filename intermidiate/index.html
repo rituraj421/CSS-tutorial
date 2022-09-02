@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="BASIC.css">
+</head>
+
+<body>
+    <hr color=" 10px red">
+    <h1>BASIC CSS</h1>
+    <pre>
+        <p>
+            CSS stands for Cascading Style Sheets
+
+            It controls the layout of multiple web pages
+
+            Helps to design the html
+
+            "#" is a css id selector(<h2 id="ritu"> in css #ritu</h2>)
+
+            "." is a css class selector(<h3 class="ratu"> in css .ratu</h3>)
+
+            id's are unique 
+
+            multiple html elements may have same class.
+
+            A class name cannot start with a number!
+
+            *	Selects all elements (universal selector)
+
+            An id & class name cannot start with a number!
+
+            there are three ways we can insert our style sheets to our html document
+            <b>
+                1) Internal CSS
+                2) External CSS
+                3) Inline CSS
+            </b>
+
+            <h2>Internal CSS</h2>
+            <style>
+                .Internal{
+                    color: antiquewhite;
+                }
+            </style>
+
+            <h1>External CSS</h1>
+
+            here we use "<link rel="stylesheet" href="style.css">" place it in our head section
+
+            <h3><b>Inline CSS</b></h3>
+
+            <mark>CSS comments</mark>
+
+            these are ignored by the compiler/idle ( but are useful when we come back to our chapter, to understand code)
+
+            single line comment in css
+
+            /* This is a single-line comment */
+
+            multiline comment
+
+            /*
+            dhdkd
+            fdfdfdfd
+            jbfkfs
+            */
+
+        </p>
+
+    </pre>
+    <hr>
+    <h1>COLORS</h1>
+    <pre class="color">
+        <mark>a color is most often specified by:</mark>
+
+        a valid color name - like "red"
+        a HEX value - like "#ff0000"
+        an RGB value - like "rgb(255,0,0)"
+        
+    </pre>
+
+    <pre>
+        <h1>BORDER</h1>
+
+        The border-style property specifies what kind of border to display.
+
+        The following values are allowed:
+
+        <p id="doted">dotted - Defines a dotted border</p>
+        <p id="das">dashed - Defines a dashed border</p>
+        <p id="solidd">solid - Defines a solid border</p>
+        <p id="doub">double - Defines a double border</p>
+        <p id="grov">groove - Defines a 3D grooved border. The effect depends on the border-color value</p>
+        ridge - Defines a 3D ridged border. The effect depends on the border-color value
+        inset - Defines a 3D inset border. The effect depends on the border-color value
+        outset - Defines a 3D outset border. The effect depends on the border-color value
+        none - Defines no border
+        hidden - Defines a hidden border
+
+        
+    </pre>
+    <div id="boxxx">
+        <p id="boxx">it's box area</p>
+    </div>
+    <hr>
+    <!-- text styling -->
+
+    <div>
+        <pre id="textt">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum cupiditate quasi
+
+                Property	    Description
+                direction	    """"Specifies the text direction/writing direction
+                text-align	    """"Specifies the horizontal alignment of text
+                text-align-last	    """"Specifies how to align the last line of a text
+                unicode-bidi	    """"Used together with the direction property to set 
+                                    or return whether the text should be overridden to 
+                                    support multiple languages in the same document
+                vertical-align	    """"Sets the vertical alignment of an element
+
+                The text-indent property is used to specify the indentation of the first line of a text:
+            </p>
+        </pre>
+    </div>
+    <hr>
+    <div>
+        <h1>
+            css fonts starts here
+        </h1>
+        <pre>
+
+            Generic Font Families
+
+            In CSS there are five generic font families:
+
+            <p id="sar">
+                Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.              
+            </p>
+            <p id="san">
+                Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+            </p>
+            <p id="mono">
+                Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+            </p>
+            <p id="cur">
+                Cursive fonts imitate human handwriting.
+            </p>
+            <p id="fant">
+                Fantasy fonts are decorative/playful fonts
+            </p>
+        </pre>
+    </div>
+    <hr>
+    <div>
+        <h1>
+            CSS links
+        </h1>
+        <pre>
+            <mark>a:link</mark> a normal, unvisited link
+            <mark>a:visited</mark> a link the user has visited
+            <mark>a:hover</mark> a link when the user mouses over it
+            <mark>a:active</mark> a link the moment it is clicked
+
+            <a href="wazirx.com">trade here</a>
+        </pre>
+    </div>
+    <hr>
+    <div class="lis">
+        <h1>
+            CSS lists
+        </h1>
+        <pre>
+            In HTML, there are two main types of lists:
+
+                unordered lists <mark>("ul")</mark> - the list items are marked with bullets
+                ordered lists <mark>(ol)</mark> - the list items are marked with numbers or letters
+
+                <h2>The list-style-type Property</h2>
+
+        </pre>
+        <h3>Example of unordered lists:</h3>
+        <ul class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+
+        <ul class="b">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+
+        <h3>Example of ordered lists:</h3>
+        <ol class="c">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+
+        <ol class="d">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ol>
+    </div>
+    <hr color="6px black">
+
+    <!-- table  starts here-->
+
+    <div>
+        <h1>
+            CSS TABLE
+        </h1>
+        <table id="teble">
+            <tr>
+                <th id="the">table </th>
+                <th id="the">table </th>
+                <th id="the">table </th>
+            </tr>
+            
+            <tr id="trow">
+                <td> first </td>
+                <td> second </td>
+                <td> third </td>
+            </tr>
+            <tr id="trow">
+                <td>hey</td>
+                <td>hey</td>
+                <td>hey</td>
+            </tr>
+            <tr id="trow">
+                <td>hey</td>
+                <td>hey</td>
+                <td>hey</td>
+            </tr>
+            <tr id="trow">
+                <td>hey</td>
+                <td>hey</td>
+                <td>hey</td>
+            </tr>
+            <tr id="trow">
+                <td>hey</td>
+                <td>hey</td>
+                <td>hey</td>
+            </tr>
+        </table>
+    </div>
+    <!-- css table ends here -->
+
+    <!-- CSS DISPLAY STARTS HERE -->
+    <div class="ex1">
+        <h1 class="displayy">
+            CSS DISPLAY
+        </h1>
+        <pre>
+            he display property is the most important CSS property for controlling layout.
+            <ul>
+                <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+                <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+                <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+              </ul>
+        </pre>
+    </div>
+    <div class="container">
+        <div class="black-box">Black box (z-index: 1)</div>
+        <div class="gray-box">Gray box (z-index: 3)</div>
+        <div class="green-box">Green box (z-index: 2)</div>
+      </div>
+
+</body>
+
+</html>
